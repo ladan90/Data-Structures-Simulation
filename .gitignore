@@ -1,0 +1,13 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual envs
+.venv/
+venv/
+
+# Data + generated outputs (keep these local)
+Gowalla_totalCheckins.txt
+*.csv
+*.png
+outputs/
