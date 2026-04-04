@@ -38,6 +38,8 @@ Returned Level Distributions: Visualizations showing that c-DAGs consistently re
 Expected Level Difference ($E[k]$): Box plots quantifying the additive search time overhead. The results will confirm that the overhead is a small constant, with the 5-DAG often showing the lowest overhead.\
 Expected FP-Competitive Ratio ($E[2^k]$): Box plots demonstrating the multiplicative reduction in false positives achieved by the c-DAGs compared to the 1D-Tree baseline.
 
+##Returned Level Distribution Gowalla
+![g60](Figures/level-dist-60-gowalla.png
 
 
 
