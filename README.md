@@ -38,9 +38,25 @@ Returned Level Distributions: Visualizations showing that c-DAGs consistently re
 Expected Level Difference ($E[k]$): Box plots quantifying the additive search time overhead. The results will confirm that the overhead is a small constant, with the 5-DAG often showing the lowest overhead.\
 Expected FP-Competitive Ratio ($E[2^k]$): Box plots demonstrating the multiplicative reduction in false positives achieved by the c-DAGs compared to the 1D-Tree baseline.
 
-##Returned Level Distribution Gowalla
-![g60](Figures/level-dist-60-gowalla.png
+## Returned Level Distribution Gowalla
+![g60](Figures/level-dist-60-gowalla.png)
+*Figure 2: Returned level distributions with cumulative probability lines on the Gowalla dataset, s=60 (1 minute). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+![g3600](Figures/level-dist-3600-gowalla.png)
+*Figure 3: Returned level distributions with cumulative probability lines on the Gowalla dataset, s=3600 (1 hour). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+![g86400](Figures/level-dist-86400-gowalla.png)
+*Figure 4: Returned level distributions with cumulative probability lines on the Gowalla dataset, s=86400 (1 day). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+![g604800](Figures/level-dist-604800-gowalla.png)
+*Figure 5: Returned level distributions with cumulative probability lines on the Gowalla dataset, $s=604800$ (1 week). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
 
+## Returned Level Distribution NYC Yellow Taxi
+![n60](Figures/level-dist-60-nyc.png)
+*Figure 2: Returned level distributions with cumulative probability lines on the NYC dataset, s=60 (1 minute). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+![n3600](Figures/level-dist-3600-nyc.png)
+*Figure 3: Returned level distributions with cumulative probability lines on the NYC dataset, s=3600 (1 hour). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+![n86400](Figures/level-dist-86400-nyc.png)
+*Figure 4: Returned level distributions with cumulative probability lines on the NYC dataset, s=86400 (1 day). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+![n604800](Figures/level-dist-604800-nyc.png)
+*Figure 5: Returned level distributions with cumulative probability lines on the NYC dataset, $s=604800$ (1 week). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
 
 
 
