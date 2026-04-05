@@ -46,7 +46,7 @@ Expected FP-Competitive Ratio ($E[2^k]$): Box plots demonstrating the multiplica
 ![g86400](Figures/level-dist-86400-gowalla.png)
 *Figure 4: Returned level distributions with cumulative probability lines on the Gowalla dataset, s=86400 (1 day). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
 ![g604800](Figures/level-dist-604800-gowalla.png)
-*Figure 5: Returned level distributions with cumulative probability lines on the Gowalla dataset, $s=604800$ (1 week). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+*Figure 5: Returned level distributions with cumulative probability lines on the Gowalla dataset, s=604800 (1 week). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
 
 ## Returned Level Distribution NYC Yellow Taxi
 ![n60](Figures/level-dist-60-nyc.png)
@@ -56,23 +56,61 @@ Expected FP-Competitive Ratio ($E[2^k]$): Box plots demonstrating the multiplica
 ![n86400](Figures/level-dist-86400-nyc.png)
 *Figure 4: Returned level distributions with cumulative probability lines on the NYC dataset, s=86400 (1 day). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
 ![n604800](Figures/level-dist-604800-nyc.png)
-*Figure 5: Returned level distributions with cumulative probability lines on the NYC dataset, $s=604800$ (1 week). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
+*Figure 5: Returned level distributions with cumulative probability lines on the NYC dataset, s=604800 (1 week). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
 
 ## Level Difference Distribution 3-DAG vs. 1D-Tree Gowalla
-![gldd60](Figures/Gowalla-LDD-3-DAG-60.png)
+![gldd60](Figures/Gowalla-LDD-3-dag-60.png)
+*Figure 6: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the Gowalla dataset, s=60 (1 minute). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 
-![gldd3600](Figures/Gowalla-LDD-3-DAG-3600.png)
+![gldd3600](Figures/Gowalla-LDD-3-dag-3600.png)
+*Figure 7: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the Gowalla dataset, s=3600 (1 hour). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 
-![gldd86400](Figures/Gowalla-LDD-3-DAG-86400.png)
+![gldd86400](Figures/Gowalla-LDD-3-dag-86400.png)
+*Figure 8: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the Gowalla dataset, s=86400 (1 day). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 
-![gldd604800](Figures/Gowalla-LDD-3-DAG-604800.png)
+![gldd604800](Figures/Gowalla-LDD-3-dag-604800.png)
+*Figure 9: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the Gowalla dataset, s=604800 (1 week). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 
 ## Level Difference Distribution 5-DAG vs. 1D-Tree Gowalla
+![gldd60](Figures/Gowalla-LDD-5-dag-60.png)
+*Figure 10: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the Gowalla dataset, s=60 (1 minute). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 
+![gldd3600](Figures/Gowalla-LDD-5-dag-3600.png)
+*Figure 11: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the Gowalla dataset, s=3600 (1 hour). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+![gldd86400](Figures/Gowalla-LDD-5-dag-86400.png)
+*Figure 12: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the Gowalla dataset, s=86400 (1 day). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+![gldd604800](Figures/Gowalla-LDD-5-dag-604800.png)
+*Figure 13: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the Gowalla dataset, s=604800 (1 week). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 
 ## Level Difference Distribution 3-DAG vs. 1D-Tree NYC Yellow Taxi
+![nldd60](Figures/NYC-LDD-3-dag-60.png)
+*Figure 14: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the NYC dataset, s=60 (1 minute). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 
+![nldd3600](Figures/NYC-LDD-3-dag-3600.png)
+*Figure 15: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the NYC dataset, s=3600 (1 hour). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+![nldd86400](Figures/NYC-LDD-3-dag-86400.png)
+*Figure 16: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the NYC dataset, s=86400 (1 day). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+![nldd604800](Figures/NYC-LDD-3-dag-604800.png)
+*Figure 17: Level diff. distributions (LDDs) between the 3-DAG and the 1D-Tree on the NYC dataset, s=604800 (1 week). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+## Level Difference Distribution 5-DAG vs. 1D-Tree NYC Yellow Taxi
+![nldd60](Figures/NYC-LDD-5-dag-60.png)
+*Figure 18: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the NYC dataset, s=60 (1 minute). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+![nldd3600](Figures/NYC-LDD-5-dag-3600.png)
+*Figure 19: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the NYC dataset, s=3600 (1 hour). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+![nldd86400](Figures/NYC-LDD-5-dag-86400.png)
+*Figure 20: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the NYC dataset, s=86400 (1 day). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
+
+![nldd604800](Figures/NYC-LDD-5-dag-604800.png)
+*Figure 21: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the NYC dataset, s=604800 (1 week). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 ## Expected Level Difference Gowalla
+
 
 ## Expected Level Difference NYC Yellow Taxi
 
