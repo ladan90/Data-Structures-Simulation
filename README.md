@@ -111,12 +111,14 @@ Expected FP-Competitive Ratio ($E[2^k]$): Box plots demonstrating the multiplica
 *Figure 21: Level diff. distributions (LDDs) between the 5-DAG and the 1D-Tree on the NYC dataset, s=604800 (1 week). Red lines show the theoretical LDD computed from the closest s^{\star} baseline.*
 ## Expected Level Difference Gowalla
 ![gexpldd](Figures/gowalla-combined-level-diff-whisker.png)
-*Figure 22: Expected level difference between each $c$-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical expected level difference c. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
+*Figure 22: Expected level difference between each c-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical expected level difference c. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
 
 ## Expected Level Difference NYC Yellow Taxi
 ![nexpldd](Figures/nyc-taxi-combined-level-diff-whisker.png)
-*Figure 23: Expected level difference between each $c$-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical expected level difference c. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
+*Figure 23: Expected level difference between each c-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical expected level difference c. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
 ## Expected FP-Competitive Ratio Gowalla
 ![gexpfp](Figures/gowalla-combined-exp-ratio-whisker.png)
+*Figure 24: Expected false-positive competitive ratio between each c-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical values. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
 ## Expected FP-Competitive Ratio NYC Yellow Taxi
 ![gexpfp](Figures/nyc-taxi-combined-exp-ratio-whisker.png)
+*Figure 25: Expected false-positive competitive ratio between each c-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical values. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
