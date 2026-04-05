@@ -58,5 +58,26 @@ Expected FP-Competitive Ratio ($E[2^k]$): Box plots demonstrating the multiplica
 ![n604800](Figures/level-dist-604800-nyc.png)
 *Figure 5: Returned level distributions with cumulative probability lines on the NYC dataset, $s=604800$ (1 week). Green, blue, and red bars represent the empirical probabilities for the 1D-Tree, 3-DAG, and 5-DAG, respectively (left y-axis). The corresponding lines show the cumulative distribution functions (right y-axis).*
 
+## Level Difference Distribution 3-DAG vs. 1D-Tree Gowalla
+![gldd60](Figures/Gowalla-LDD-3-DAG-60.png)
 
+![gldd3600](Figures/Gowalla-LDD-3-DAG-3600.png)
+
+![gldd86400](Figures/Gowalla-LDD-3-DAG-86400.png)
+
+![gldd604800](Figures/Gowalla-LDD-3-DAG-604800.png)
+
+## Level Difference Distribution 5-DAG vs. 1D-Tree Gowalla
+
+
+## Level Difference Distribution 3-DAG vs. 1D-Tree NYC Yellow Taxi
+
+## Expected Level Difference Gowalla
+
+## Expected Level Difference NYC Yellow Taxi
+
+
+## Expected FP-Competitive Ratio Gowalla
+
+## Expected FP-Competitive Ratio NYC Yellow Taxi
 
