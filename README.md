@@ -114,9 +114,9 @@ Expected FP-Competitive Ratio ($E[2^k]$): Box plots demonstrating the multiplica
 *Figure 22: Expected level difference between each $c$-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical expected level difference c. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
 
 ## Expected Level Difference NYC Yellow Taxi
-
+![nexpldd](Figures/nyc-taxi-combined-level-diff-whisker.png)
 *Figure 23: Expected level difference between each $c$-DAG and the 1D-Tree baseline across query lengths of 1 minute, 1 hour, 1 day, and 1 week. Dots show the theoretical expected level difference c. Blue boxes/dots: 3-DAG vs. 1D-Tree. Red boxes/dots: 5-DAG vs. 1D-Tree.*
 ## Expected FP-Competitive Ratio Gowalla
-
+![gexpfp](Figures/gowalla-combined-exp-ratio-whisker.png)
 ## Expected FP-Competitive Ratio NYC Yellow Taxi
-
+![gexpfp](Figures/nyc-taxi-combined-exp-ratio-whisker.png)
