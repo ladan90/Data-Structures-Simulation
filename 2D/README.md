@@ -48,12 +48,12 @@ python -m venv .venv && source .venv/bin/activate      # optional
 pip install -r requirements.txt
 
 # 0. (optional) correctness tests
-python src/tests.py                 # brute-force vs. incremental SRC, Fig.-2 example
+python src/tests.py                 # brute-force vs. incremental SRC, Fig.2 example
 
 # 1. build D (only if you want to regenerate data/gowalla_D.npz from the raw SNAP file)
 python src/data_prep.py path/to/Gowalla_totalCheckins.txt
 
-# 2. run the four query streams (the paper streams took ~1-2 h per shape on 4 cores)
+# 2. run the four query streams 
 python src/run_experiment.py --jobs 4 --out results/paper
 
 # 3. all paper figures + summary_table.csv
@@ -75,7 +75,9 @@ so `plots.py` and `analyze_privacy.py` reproduce every number and figure of Sect
 `figures_paper/` contains the PDFs used in the paper and
 `summary_table.csv` with all derived statistics (mean levels, level overheads, baseline fits, AR statistics, tie fractions, visited-node counts).
 
+
 The random maximal rule of Section 6 is analyzed by `analyze_privacy.py`:
 for every query with several minimizers it records |M(Q)|, the number of minimizers on the deepest level, the number of distinct element sets, and the entropy of the returned element set.
 
 
+A full version of the paper, including the appendix with all proofs, is available at [Efficient DS for SRC Search with Multi-Dim Range Queries_full version.pdf](Efficient DS for SRC Search with Multi-Dim Range Queries_full version.pdf).
