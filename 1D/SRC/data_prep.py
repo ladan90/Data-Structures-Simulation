@@ -66,7 +66,9 @@ def finish(sec_all, n_target, name, extra=""):
 
 def prep_gowalla(path, drop_invalid_location=False):
     cols = [1, 2, 3] if drop_invalid_location else [1]
-    df = pd.read_csv(path, sep="\t", header=None, usecols=cols, compression="infer")
+    with open(path, "rb") as fh:
+        comp = "gzip" if fh.read(2) == b"\x1f\x8b" else None
+    df = pd.read_csv(path, sep="\t", header=None, usecols=cols, compression=comp)
     df.columns = (["time", "lat", "lon"] if drop_invalid_location else ["time"])
     n_raw = len(df)
     df = df.dropna(subset=["time"])

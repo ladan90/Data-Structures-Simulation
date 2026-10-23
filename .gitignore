@@ -6,7 +6,17 @@ __pycache__/
 .venv/
 venv/
 
-# Data + generated outputs (keep these local)
+# macOS
+.DS_Store
+
+# Raw data (downloaded by src/data_prep.py --download)
 Gowalla_totalCheckins.txt
-*.csv
+loc-gowalla_totalCheckins.txt.gz
+*.parquet
+
+# Generated outputs
 outputs/
+results_smoke/
+*.csv
+!1D/figures/**/*_summary_table.csv
+
