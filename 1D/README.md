@@ -20,7 +20,7 @@ Efficient Implementations, Privacy Guarantees* (arXiv).
 | `figures/<dataset>/` | figures and `<dataset>_summary_table.csv` (Tables 1 and 2) |
 
 ## Setup
-Python 3 (tested with Python 3.12).
+Python 3 (tested with Python 3.13.7).
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
